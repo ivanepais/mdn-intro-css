@@ -2,7 +2,17 @@ h1 {
     color: orange;
     font-size: 2em;
 }
+
 h2 {
     color:skyblue;
     font-size: 1em;
+}
+
+p {
+    color: black;
+}
+
+li {
+    color: magenta;
+    list-style-type: none;
 }
