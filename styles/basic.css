@@ -5,7 +5,7 @@ h1 {
 
 h2 {
     color:skyblue;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 p {
@@ -16,3 +16,10 @@ li {
     color: magenta;
     list-style-type: none;
 }
+
+li.special, 
+span.special {
+    color: orange;
+    font-weight: bold;
+}
+
