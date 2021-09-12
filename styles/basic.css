@@ -23,3 +23,27 @@ span.special {
     font-weight: bold;
 }
 
+li em {
+    color: rebeccapurple;
+}
+
+h1 + p {
+    font-size: 200%;
+}
+, 
+a:visited {
+    color: greenyellow;
+}
+
+a:link,
+a:hover {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+  }
