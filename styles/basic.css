@@ -4,8 +4,17 @@ h1 {
 }
 
 h2 {
-    color:skyblue;
+    color: skyblue;
     font-size: 1.5em;
+}
+
+h3 {
+    color: rgb(43, 226, 226);
+    font-size: 1.2em;
+}
+
+h4 {
+    color: rgba(255, 0, 212, 0.993)
 }
 
 p {
@@ -30,7 +39,7 @@ li em {
 h1 + p {
     font-size: 200%;
 }
-, 
+
 a:visited {
     color: greenyellow;
 }
@@ -47,3 +56,11 @@ body h1 + p .special {
     background-color: black;
     padding: 5px;
   }
+
+p.specificity {
+    color: red;
+}  
+
+p {
+    color: grey;
+}
