@@ -27,7 +27,7 @@
             </ul>
     <p><strong>CSS de los Navegadores:</strong></p>
     <p>Podemos cambiar el css predeterminado de los navegadores por otros valores</p>
-    <p>podemos ver la documentacion: list-style-type.</p> 
+    <p>podemos ver la documentación: list-style-type.</p> 
 
     <h3>Añadir una clase:</h3>
     <p>Para separar elementos y aplicar otros estilos.</p>
@@ -37,58 +37,58 @@
         <li>Punto <em>tres</em></li>
       </ul>        
     <p><strong>Aplicar la clase a cualquier otro elemento:</strong></p>
-    <p>En CSS elegimos un elemento y llamamos a la clase que habíamos definido y le aplica su css: ej, li.special en el mismo lugar. Ademas de agregarle al elemento en el html la clase special, tambien se repite el nombre de la clase.</p> 
+    <p>En CSS elegimos un elemento y llamamos a la clase que habíamos definido y le aplica su css: ej, li.special en el mismo lugar. Ademas de agregarle al elemento en el html la clase special, también se repite el nombre de la clase.</p> 
     <p>hay un <span class="special">elemento span</span></p>
      
-    <h3>Dar estilo segun la ubicacion del elemento:</h3> 
-    <p><strong>Se hace espacio entro los selectores en css:</strong> el primero es la ubicacion y el segundo donde se va a plicar formato.</p>
-    <p><strong>Formato a parrafo despues de titulo:</strong> h1 + p en un mismo nivel de jerarquia</p>
+    <h3>Dar estilo según la ubicación del elemento:</h3> 
+    <p><strong>Se hace espacio entro los selectores en css:</strong> el primero es la ubicación y el segundo donde se va a aplicar formato.</p>
+    <p><strong>Formato a párrafo después de titulo:</strong> h1 + p en un mismo nivel de jerarquía</p>
     
-    <h3>Dar formato segun el estado:</h3>
-    <p>como va cambiando el elemento cuando interactuas como puede ser el elemento enlace que tiene tres estados (inicial, clickeado, visual).</p>
+    <h3>Dar formato según el estado:</h3>
+    <p>como va cambiando el elemento cuando interactuás como puede ser el elemento enlace que tiene tres estados (inicial, clickeado, visual).</p>
     <p>Tener en cuenta que podemos perjudicar la accesibilidad.</p>  
 
-    <h3>Selectores y combinadores:</h3>
+    <h3>Selectores y combinación:</h3>
     <p><strong>ejemplos:</strong></p>
-    <p><strong>Selecciona cualquier elemento span que se encuentre dentro de un parrafo, que esté dentro de un articulo:</strong> se invoca al elemento padre espacio hijo; p span.</p>
-    <p><strong>Selecciona cualquier p que se encuentre directamente después de ul, que va directamente después de h1:</strong> tiene que estar en la misma jerarquia, se aplican un conjunto de estilos en grupo para estos elementos; h1 + ul + p</p>
-    <p><strong>Combinacion de estas dos tecnicas:</strong> ej body h1 + p .special, va a formatear class dentro de p que venga despues de h1 que se encuentre dentro de body.</p>
+    <p><strong>Selecciona cualquier elemento span que se encuentre dentro de un párrafo, que esté dentro de un articulo:</strong> se invoca al elemento padre espacio hijo; p span.</p>
+    <p><strong>Selecciona cualquier p que se encuentre directamente después de ul, que va directamente después de h1:</strong> tiene que estar en la misma jerarquía, se aplican un conjunto de estilos en grupo para estos elementos; h1 + ul + p</p>
+    <p><strong>Combinación de estas dos técnicas:</strong> ej body h1 + p .special, va a formatear class dentro de p que venga después de h1 que se encuentre dentro de body.</p>
     
     <h2>Estructurar CSS</h2>
     
     <h3>Selectores:</h3>
-    <p>Es un elemento de HTML al cual le aplicamos estilos. Cada regla tiene un selector y estos tienen propiedad (color, parrafos, etc) y valor(numerico)</p>
+    <p>Es un elemento de HTML al cual le aplicamos estilos. Cada regla tiene un selector y estos tienen propiedad (color, párrafos, etc) y valor(numérico)</p>
     
     <h3>Especificidad:</h3>
-    <p>Suponemos una situacion donde dos selectores o más usan un mismo elemento para aplicarle estilo.</p>
+    <p>Suponemos una situación donde dos selectores o más usan un mismo elemento para aplicarle estilo.</p>
     <p><strong>Cascada</strong> y <strong>Especificidad:</strong></p>
     <p>Entro dos elementos de con la misma especificidad se aplicará el estilo del ultimo elemento escrito.</p>
     <p class="specificity">Entre dos elementos en el cual hay uno que es mas especifico que otro, ganara este por mas que esté escrito primero.</p>
     
     <h3>Propiedad y Valor:</h3>
-    <p><strong>Propiedad:</strong> Son caracteristicas de estilo (font-size, widht, etc).</p>
-    <p><strong>Valor:</strong> Indica como quieres que cambien las caracteristicas de estilo.</p>
-    <p><strong>Declaración y regla:</strong> La <em>declaración</em> es un conjunto de propiedades y valores que estan dentro de las llaves del codigo de CSS. La <em>regla</em> son los selectores junto a sus propiedades y valores.</p>
+    <p><strong>Propiedad:</strong> Son características de estilo (font-size, width, etc).</p>
+    <p><strong>Valor:</strong> Indica como quieres que cambien las características de estilo.</p>
+    <p><strong>Declaración y regla:</strong> La <em>declaración</em> es un conjunto de propiedades y valores que están dentro de las llaves del código de CSS. La <em>regla</em> son los selectores junto a sus propiedades y valores.</p>
     
     <h3>Ejemplos de Propiedades:</h3> 
     <h4>font-size</h4> 
     <p>Es la dimension de la letra, es mejor usar px para darle valor.</p>
-    <h4>widht</h4>
+    <h4>width</h4>
     <p>Especifica la anchura del area de contenido de un elemento, está dentro del padding, borde y margen. Tiene varios tipos de valores.</p>
     <h4>background-color</h4> 
     <p>Define el color de fondo de un elemento o puede ser trasparente (predeterminado).</p>
     <h4>color</h4> 
     <p>Selecciona el valor de color para textos y decoraciones. El valor debe ser un color uniforme, no puede ser gradient (degradado/tipo de imagen).</p>
     <h4>border</h4>
-    <p>Define todos los bordes (widht, color, style) en una sola regla.</p>
+    <p>Define todos los bordes (width, color, style) en una sola regla.</p>
 
     <h3>Funciones</h3>
-    <p>Se pueden realizar distintas operaciones matematicas para valores dados.</p>
+    <p>Se pueden realizar distintas operaciones matemáticas para valores dados.</p>
     <h4>calc():</h4>
-    <p>Se usa para determinar valores de propiedades mediante calculos.</p>
+    <p>Se usa para determinar valores de propiedades mediante cálculos.</p>
     <div class="external"> <div class="box">La caja interior es del 90% - 30px.</div></div>
     <h4>transform:</h4>
-    <p>Te permite cambiar el espacio de coordenadas del modelo visual de css. Los elementos modificarse con funciones como trasladar, rotar, escalar o sesgar; de acuardo a los valores introducidos en ellas.</p>
+    <p>Te permite cambiar el espacio de coordenadas del modelo visual de css. Los elementos modificarse con funciones como trasladar, rotar, escalar o sesgar; de acuerdo a los valores introducidos en ellas.</p>
     <div class="box-square"></div>
     <h4>background-image: gradient (degradado)</h4>
 
@@ -96,12 +96,32 @@
     <p>Contienen CSS ademas del que tiene nuestra hoja de stylo.</p>
 
     <h3>Abreviaturas</h3>
-    <p>Las propiedades abreviadas permiten poner valores de varias propiedades en una sola linea. Si falta algun valor, se pone el predeterminado/inicial.</p>
+    <p>Las propiedades abreviadas permiten poner valores de varias propiedades en una sola linea. Si falta algún valor, se pone el predeterminado/inicial.</p>
     <p>Los valores pueden afectar las cuatro direcciones: arriba, derecha, abajo, izquierda en este sentido (si ponemos 4 valores).</p>
-    
     <h4>font</h4>
-    <p></p>
+    <p>Permite establecer los valores de font: style, variant, weight, size, height, family; en una sola linea</p>
+    <h4>background</h4>
+    <p>Es el fondo de un elemento. En una sola line permite establecer sus valores de : attachment, color, image, position, repeat.</p>
+    <h4>padding</h4>  
+    <p>Es el espacio entre el borde y el elemento. En una line podemos escribir las propiedades individuales de padding: top, right, bottom y left.</p>
+    <h4>border</h4>  
+    <p>Da formato al borde de un elemento, puede no tener borde, o tener una linea, etc. Puede aplicar de una sola vez los valores de las propiedades: style, width y color.</p>
+    <h4>margin</h4>
+    <p>Es el espacio que esta por fuera del borde de un elementos. Los valores van a ser de las propiedades: top, right, botoom, left.</p>
 
+    <h3>Comentarios</h3>
+    <p>Ayudan a comprender el código o hacer pruebas deshabilitando parte del código y ademas podemos buscarlos en el editor a medida que el código se vaya complejizando.</p>
+
+    <h3>Espacios en blanco</h3>
+    <p>Mejora la legibilidad y hace mas fácil el mantenimiento.</p>
+
+    <h2>Como funciona CSS</h2>
+    <p>El navegador y el DOM son los actores principales que interactuán con el HTML y el CSS</p>
+    <p>El DOM (Modelo de Objetos del Documento) es una API (Interfaz de Programación de Aplicaciones) que es software que puede funcionar con otros. Permite ejecutar código en el navegador para acceder e interactuar con cualquier nodo del documento.s</p>
+    <p>Se usa para interactuar y representar documentos HtML o XML. El DOM es un modelo de documento que se carga en el navegador y representa al documento como un árbol de nodos. Los nodos pueden crearse, modificarse o moverse.</p>
+    <p>Un nodo (en DOM) es un punto único en el árbol de nodos, puede ser un documento mismo, elementos de HTML, texto (contenido) o comentarios que representa una parte del documento.</p>
+    <p>El DOM se estructura como un árbol, sus ramificaciones van a ser como padres e hijos en donde esta el contenido que programamos.</p>
+    <p>Cuando en el HTML incluimos un CSS, el navegador lee el HTML y creará un DOM a partir de este así puede leer las reglas de CSS y aplicarlas.</p>
 
 </body>
 </html>
