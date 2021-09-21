@@ -123,5 +123,25 @@
     <p>El DOM se estructura como un árbol, sus ramificaciones van a ser como padres e hijos en donde esta el contenido que programamos.</p>
     <p>Cuando en el HTML incluimos un CSS, el navegador lee el HTML y creará un DOM a partir de este así puede leer las reglas de CSS y aplicarlas.</p>
 
+   <h2>Más Propiedades</h2> 
+   <h3>font-family</h3>
+   <p>define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado.  los valores se separan con comas (",") para indicar que son valores alternativos.</p>
+   <p>Los valores puede ser: <strong>nombre de familia</strong> (Times, Helvetica, etc), las tengan espacios se escriben entre comillas; puede haber varias. <strong>nombre genérico</strong> (serif, sans-serif) no van entre comillas; se usa para cuando ninguna de las fuentes este disponible, puede haber una y se escribe al final.</p> 
+   <p>Cuando alguna fuente no tiene alguna propiedad, pasa a la siguiente.</p> 
+   <h3>border-bottom</h3> 
+   <p>Permite de definir de una vez todas las propiedades individuales que describen el color, estilo y ancho: border-bottom-color, border-bottom-style, y border-bottom-width</p>
+   <p>Se puede especificar los tres valores en cualquier orden y omitir hasta 2</p>   
+   <h3>font-weight</h3>
+   <p>Especifica el grueso de la letra, algunos tipos de letra solo están disponibles en normal o bold por ejemplo.</p>   
+   <p><strong>Valores:</strong> normal (es 400), bold (700), lighter (menos grueso que su elemento padre), bolder (mas grueso que su elemento padre) entre 100 y 900 (para los tipos de letra que nos permiten flexibilidad, si no existe algún valor, se presentara el mas aproximado entre la escala normal-bold)</p>   
+   <h3>font-size</h3>   
+   <p>Determina el tamaño de la letra, puede alterar el aspecto de otra cosa al usarse para calcular la longitud de las unidades em y ex, si hay que usar este tipo de valores mejor usar px (no varia en función de las caracteristicas del dispositivo)</p>
+   <h3>text-decoration</h3>
+   <p>Se usa para establecer el formato de texto a subrayado (underline) y suprarrayado (overline), tachado (line-through) o parpadeo (blink). El subrayado y el suprarrayado son posicionados bajo el texto, mientras la línea a través de éste se posiciona por encima.</p>
+   <p>Es una forma reducida, y puede usar los valores de cada una de las propiedades de la forma larga: text-decoration-line, text-decoration-color, y text-decoration-style.</p>
+   <p>Las decoraciones también se aplican a los elementos hijos/descendientes que esten en la misma linea, para solucionar esto al elemento hijo le agregamos una decoración vaciá o le aplicamos otro tipo de decoración en una nueva regla.</p>
+
+
+
 </body>
 </html>
